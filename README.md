@@ -15,9 +15,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Then run the tests and/or the server:
+Then migrate the app, run the tests, and start the server:
 
 ```
+python manage.py migrate
 python manage.py test
 python manage.py runserver
 ```
